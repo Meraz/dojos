@@ -1,0 +1,5 @@
+set(CMAKE_CXX_FLAGS "-g -Wall -std=c++14")
+add_library(src MineFields.cpp)
+target_include_directories(src PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_options(src PRIVATE -g -Werror -Wall -std=c++14)
+add_executable(MYNAME MineFields.h MineFields.cpp)

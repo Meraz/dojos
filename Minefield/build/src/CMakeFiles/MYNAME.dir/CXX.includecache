@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tdd/Downloads/Minefield/src/MineFields.cpp
+MineFields.h
+/home/tdd/Downloads/Minefield/src/MineFields.h
+iostream
+-
+
+/home/tdd/Downloads/Minefield/src/MineFields.h
+vector
+-
+cstdint
+-
+unordered_map
+-
+memory
+-
+string
+-
+fstream
+-
+

@@ -1,0 +1,5 @@
+project("MineField" CXX)
+cmake_minimum_required(VERSION 3.5)
+add_subdirectory(google)
+add_subdirectory(src)
+add_subdirectory(test)
